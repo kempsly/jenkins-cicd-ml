@@ -39,8 +39,8 @@ class LoanPrediction(BaseModel):
     Credit_History: float
     Property_Area: str
     
-    
-    
+        
+# Welcomepage
 
 @app.get('/')
 def index():
