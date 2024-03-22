@@ -44,7 +44,7 @@ class LoanPrediction(BaseModel):
 
 @app.get('/')
 def index():
-    return {"Message": "Jenkins CI-CD Loan Prediction API"}
+    return {"Message": "Jenkins CI-CD Loan Prediction API V3"}
 
 @app.post('/prediction_api')
 def predict(loan_details: LoanPrediction):
